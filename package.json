@@ -1,0 +1,35 @@
+{
+  "name": "learningjs",
+  "version": "1.0.0",
+  "description": "= 러닝 자바스크립트 한글판, 초판",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asheed/learningJS.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "woojin ahn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asheed/learningJS/issues"
+  },
+  "homepage": "https://github.com/asheed/learningJS#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^4.0.2"
+  }
+}
