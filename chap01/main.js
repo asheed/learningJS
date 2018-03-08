@@ -1,7 +1,8 @@
+/*global paper:true, Tool:true, console:true, Shape:true, Color:true, PointText:true*/
 $(document).ready(function() {
     'use strict';
     // console.log('main.js loaded');
-    paper.install(window);
+    paper.install(window); 
     paper.setup(document.getElementById('mainCanvas'));
 
     // TO DO
